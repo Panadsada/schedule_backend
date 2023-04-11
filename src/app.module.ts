@@ -17,7 +17,7 @@ import { Schedule } from './schedule/entities/schedule.entity';
       host: 'localhost',
       port: 5432,
       username: 'postgres',
-      password: '1234',
+      password: '12345',
       database: 'project',
       entities: [User, Calendar, Schedule],
       synchronize: true,
