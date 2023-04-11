@@ -14,7 +14,7 @@ export class NotiLineService {
     private readonly scheduleRepository: Repository<Schedule>,
   ) {}
 
-  @Cron(CronExpression.EVERY_10_MINUTES, {
+  @Cron(CronExpression.EVERY_MINUTE, {
     //Api 10am. ผ่าน ui ,uiจะเป็นคน control
     utcOffset: 7,
   })
