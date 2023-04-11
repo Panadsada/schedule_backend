@@ -1,4 +1,3 @@
-import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
@@ -9,6 +8,7 @@ import { Calendar } from './calendar/entities/calendar.entity';
 import { NotiLineModule } from './noti-line/noti-line.module';
 import { ScheduleModule } from './schedule/schedule.module';
 import { Schedule } from './schedule/entities/schedule.entity';
+import { Module } from '@nestjs/common';
 
 @Module({
   imports: [
